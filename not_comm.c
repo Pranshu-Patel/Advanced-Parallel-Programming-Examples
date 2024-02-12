@@ -9,7 +9,7 @@ int main(int argc, char** argv) {
 
     // Check if the number of processes is at least 2
     if (size < 2) {
-        printf("This example requires at least 2 processes.\n");
+        printf("This requires at least 2 processes.\n");
     } else {
         // Create communicators for consecutive pairs
         MPI_Comm pair_comm;
